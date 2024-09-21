@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer h3{
+    text-decoration: underline;
+}
+
+
+/* .banner{
+    height: 500px;
+    background-image: url(./asserts/contact-vip.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center center;a:hover{
+}
+} */
+
+.signin-form input{
+    border: none;
+}
+
+a::selection{
+    text-decoration: underline;
+}
+
+.carousel-item>img{
+    height: 70vh;
+}
+
+.nav-item>a:hover{
+    text-decoration: underline;
+    color: rebeccapurple;
+}
+
+.home-banner{
+    width: 100%;
+    height: 60vh;
+}
+
+@media screen and (max-width:576px) {
+    .carousel-item>img{
+        width: 100%;
+        height: 30vh;
+    }
+    .home-banner{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .service-section-card .card{
+        margin-bottom: 10px;
+    }
+}
+
+.modal-body>img{
+    height: 60vh;
+    width: 100%;
+}
